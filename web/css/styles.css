@@ -148,11 +148,11 @@ body {
 BODY Styling
 *******************************/
 .genus-photo {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border: 1px solid #000;
     background: url('../images/octopus-rubescens.jpg');
-    border-radius: 50%;
+    border-radius: 55%;
     margin-bottom: 30px;
 }
 
@@ -170,7 +170,7 @@ BODY Styling
     border: 1px solid #7A942E;
     border-radius: 50%;
     padding: 5px 7px;
-    background-color: #8DB255;
+    background-color: yellowgreen;
     margin-right: 10px;
     margin-top: 20px;
 }
@@ -652,7 +652,7 @@ FOOTER Styling
 
 .footer {
     padding: 20px;
-    background: #E9D4B7;
+    background: darkturquoise;
     font-size: 1.3em;
     margin-top: 40px;
 }
