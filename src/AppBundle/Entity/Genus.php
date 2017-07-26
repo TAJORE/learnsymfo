@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pc
- * Date: 26/07/2017
- * Time: 01:46
- */
+
 
 namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
@@ -27,4 +22,22 @@ class Genus
      * @ORM\Column(type="string")
      */
     private $name;
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+
 }
